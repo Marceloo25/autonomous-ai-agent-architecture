@@ -39,16 +39,14 @@ A high-performance hybrid AI framework implementing autonomous generative agents
 ## Project Structure
 
 ```text
-├── backend/
-│   ├── app.py                 # Core API gateway & routing engine
-│   ├── llm_router.py          # Model switching logic (Qwen / OpenAI / Gemini)
-│   ├── tts_pipeline.py        # ElevenLabs & Piper voice generation service
-│   └── prompt_templates.py    # Structured agent prompts & memory schemas
-├── unity_scripts/
-│   ├── AgentController.cs     # C# state machine & backend HTTP wrapper
-│   ├── MemoryManager.cs       # Client-side perception & event buffer
-│   └── AudioStreamer.cs       # Audio buffer playback for real-time TTS
-├── .env.example               # Template for API keys
+├── unity_vr_project/assets/scripts
+│   ├── AIAdapterClient.cs
+│   ├── AICharacter.cs   
+│   ├── AIMessageBoardBridge.cs
+│   ├── AISessionManager.cs  
+│   ├── AIToolRegistry.cs 
+│   ├── ElevenLabsTTS.cs
+│   └── LocalPiperTTS.cs
 └── README.md
 
 ```
