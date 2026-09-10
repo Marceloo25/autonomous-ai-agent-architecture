@@ -1,6 +1,6 @@
 # Autonomous 3D AI Agent Architecture
 
-A high-performance hybrid AI framework implementing autonomous generative agents inside an interactive 3D simulation environment. Built on top of Stanford’s Generative Agent architecture, this system features dynamic cloud/local LLM fallback routing and a real-time text-to-speech (TTS) pipeline powered by **ElevenLabs** and Piper[cite: 2].
+A high-performance hybrid AI framework implementing autonomous generative agents inside an interactive 3D simulation environment. Built on top of Stanford’s Generative Agent architecture, this system features dynamic cloud/local LLM fallback routing and a real-time text-to-speech (TTS) pipeline powered by **ElevenLabs** and Piper.
 
 🎥 **[Watch the Showcase Video](https://www.youtube.com/watch?v=UzyQBu-9o9Q)**
 
@@ -8,11 +8,11 @@ A high-performance hybrid AI framework implementing autonomous generative agents
 
 ## Key Architectural Features
 
-* **Real-Time Voice Synthesis Pipeline**: Integrated ElevenLabs API for low-latency, natural voice generation, paired with Piper for lightweight offline fallbacks[cite: 2].
+* **Real-Time Voice Synthesis Pipeline**: Integrated ElevenLabs API for low-latency, natural voice generation, paired with Piper for lightweight offline fallbacks.
 * **Hybrid LLM Orchestration Engine**: Python backend supporting dynamic runtime switching between locally hosted models (Qwen 3.5 9B) and cloud APIs (OpenAI, Gemini).
 
 
-* **Context Engineering & Fallback Routing**: Robust prompt management, context window optimization, and automatic retry mechanisms to ensure reliable agent outputs across multi-turn interactions[cite: 1].
+* **Context Engineering & Fallback Routing**: Robust prompt management, context window optimization, and automatic retry mechanisms to ensure reliable agent outputs across multi-turn interactions.
 * **Generative Memory & Perception**: Unity C# client implementing agent state, reflection, and environmental perception mapped to backend decisions.
 
 
